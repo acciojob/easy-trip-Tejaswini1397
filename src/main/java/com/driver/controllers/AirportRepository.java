@@ -86,7 +86,7 @@ public class AirportRepository {
         Passenger passenger=passengerMap.get(passengerId);
         if (flight != null && passenger.equals(passengerId)) {
             flightMap.remove(passengerId);
-            passengerMap.remove(passengerId)
+            passengerMap.remove(passengerId);
             return "SUCCESS";
         }
         return null;
